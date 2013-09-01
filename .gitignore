@@ -1,0 +1,32 @@
+# Python bytecode:
+*.py[co]
+
+# Packaging files:
+*.egg*
+
+# Editor temp files:
+*.swp
+*~
+
+# Sphinx docs:
+build
+
+# SQLite3 database files:
+*.db
+
+# Logs:
+*.log
+
+# Emacs cruft
+*~
+\#*
+
+# things that don't need to be under source control
+.idea/
+*.iml
+param_metrics.txt
+*.csv
+*.xlsx
+*.tar
+*.zip
+*.emf
