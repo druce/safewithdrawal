@@ -13,9 +13,9 @@ step 1
 ======
 create mysql database, user, grant permissions, e.g.
 
-  create database swtest;
-  create user 'safe'@'myhost' identified by 'safe';
-  grant all privileges on swtest.* to 'safe'@'myhost';
+    create database swtest;
+    create user 'safe'@'myhost' identified by 'safe';
+    grant all privileges on swtest.* to 'safe'@'myhost';
 
 step 2
 ======
@@ -47,10 +47,10 @@ launch processes to analyze scenarios
 
 to run on 4 octo-core machines
 
-  python SafeWithdrawal.py --multi --xprocesses 8 --base 0
-  python SafeWithdrawal.py --multi --xprocesses 8 --base 8
-  python SafeWithdrawal.py --multi --xprocesses 8 --base 16
-  python SafeWithdrawal.py --multi --xprocesses 8 --base 24
+          python SafeWithdrawal.py --multi --xprocesses 8 --base 0
+          python SafeWithdrawal.py --multi --xprocesses 8 --base 8
+          python SafeWithdrawal.py --multi --xprocesses 8 --base 16
+          python SafeWithdrawal.py --multi --xprocesses 8 --base 24
 
 for reference, the analysis in the article took < 1 week on 1 on-demand + 3 spot Amazon c1.xlarge instances.
 
