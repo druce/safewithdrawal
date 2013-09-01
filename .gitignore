@@ -30,3 +30,5 @@ param_metrics.txt
 *.tar
 *.zip
 *.emf
+.Rdata
+.Rhistory
